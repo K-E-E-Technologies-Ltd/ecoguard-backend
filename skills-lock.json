@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "neon": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/neon/SKILL.md",
+      "computedHash": "07ebeb0077c3a10fd82a87ee45a75f0c071bf118b95ea61da90907c8fc05a2f4"
+    },
+    "neon-postgres": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/neon-postgres/SKILL.md",
+      "computedHash": "b9763d379a3c5039e5555540a1333b1c529e2365d4f0b8fe2998ba41509814c5"
+    },
+    "upstash-ratelimit-js": {
+      "source": "upstash/skills",
+      "sourceType": "github",
+      "skillPath": "skills/upstash-ratelimit-js/SKILL.md",
+      "computedHash": "d5903c53a9b83b798f81826f7bf068ddb202ea30d7dfc462f16c8ffbcc9e4d59"
+    },
+    "upstash-redis-js": {
+      "source": "upstash/skills",
+      "sourceType": "github",
+      "skillPath": "skills/upstash-redis-js/SKILL.md",
+      "computedHash": "e1a81606ca80ab385027f39755fc099df0a764e9f1c814bf337e2f3af85c5062"
+    }
+  }
+}

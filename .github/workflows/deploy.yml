@@ -31,6 +31,4 @@ jobs:
         run: |
           mkdir -p .vercel
           printf '{"projectId":"%s","orgId":"%s"}\n' "$VERCEL_PROJECT_ID" "$VERCEL_ORG_ID" > .vercel/project.json
-          npx --yes vercel@latest pull --yes --environment=production --token=$VERCEL_TOKEN
-          npx --yes vercel@latest build --prod --token=$VERCEL_TOKEN
-          npx --yes vercel@latest deploy --prebuilt --prod --token=$VERCEL_TOKEN
+          npx --yes vercel@latest deploy --prod --yes --token=$VERCEL_TOKEN
